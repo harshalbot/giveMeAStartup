@@ -1,0 +1,266 @@
+body {
+    background-color: #121435;
+    font-family: Hack, monospace;
+}
+div {
+    overflow-y: hidden;
+}
+h1,
+h3 {
+    color: #ffffff;
+}
+
+.main_button {
+    background-color: #FF5722;
+    border-radius: 15px;
+    font-size: 1.3em;
+    color: #F5F5F5;
+}
+
+#leader {
+    color: #FAF9F0;
+}
+
+p {
+    color: #3DBDC2;
+}
+
+#category {
+    color: #FAF9F0;
+}
+
+/*@media (min-width: 0px) and (max-width: 320px) {
+	h1 {
+        position: absolute;
+        margin-top: 5%;
+        margin-left: 11%;
+        font-size: 1em;
+    }
+
+    h3 {
+        position: absolute;
+        margin-top: 25%;
+        margin-left: 11%;
+        font-size: .8em;
+    }
+    
+    #leader {
+        position: absolute;
+        margin-top: 50%;
+        margin-left: 10%;
+        font-size: 1.5em;
+    }
+    p {
+        position: absolute;
+        margin-top: 63%;
+        margin-left: 42%;
+        font-size: 1.5em;
+    }
+    #category {
+        position: absolute;
+        margin-top: 76%;
+        margin-left: 55%;
+        font-size: 1.5em;
+    }
+    .main_button {
+        position: absolute;
+        margin-top: 130%;
+        margin-left: 22%;
+        width: 50%;
+        height: 10%;
+        font-size: 1em;
+    }
+    .credit {
+    	position: absolute;
+    	font-size: 1em;
+    	margin-top: 180%;
+    	margin-left: 2%
+    	
+}  */
+
+@media (min-width: 321px) and (max-width: 425px) {
+	h1 {
+        position: absolute;
+        margin-top: 5%;
+        margin-left: 10%;
+        font-size: 1.5em;
+    }
+    h3 {
+        position: absolute;
+        margin-top: 25%;
+        margin-left: 18%;
+        font-size: 1em;
+    }
+    
+    #leader {
+        position: absolute;
+        margin-top: 33%;
+        margin-left: 25%;
+        font-size: 1.5em;
+    }
+    p {
+        position: absolute;
+        margin-top: 43%;
+        margin-left: 42%;
+        font-size: 1.5em;
+    }
+    #category {
+        position: absolute;
+        margin-top: 51%;
+        margin-left: 55%;
+        font-size: 1.5em;
+    }
+    .main_button {
+        position: absolute;
+        margin-top: 75%;
+        margin-left: 35%;
+        width: 30%;
+        height: 10%;
+        font-size: 1em;
+    }
+    .credit {
+    	position: absolute;
+    	font-size: 1em;
+    	margin-top: 120%;
+    	margin-left: 2%;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+	h1 {
+        position: absolute;
+        margin-top: 5%;
+        margin-left: 20%;
+        font-size: 2em;
+    }
+    h3 {
+        position: absolute;
+        margin-top: 20%;
+        margin-left: 22%;
+        font-size: 1.5em;
+    }
+    
+    #leader {
+        position: absolute;
+        margin-top: 18%;
+        margin-left: 25%;
+        font-size: 2.5em;
+    }
+    p {
+        position: absolute;
+        margin-top: 28%;
+        margin-left: 42%;
+        font-size: 2.5em;
+    }
+    #category {
+        position: absolute;
+        margin-top: 36%;
+        margin-left: 55%;
+        font-size: 2.5em;
+    }
+    .main_button {
+        position: absolute;
+        margin-top: 55%;
+        margin-left: 35%;
+        width: 30%;
+        height: 10%;
+        font-size: 1.3em;
+    }
+    .credit {
+    	font-size: 1em;
+    	margin-top: 80%;
+    	margin-left: 2%;
+    }
+} 
+
+@media (min-width: 769px) and (max-width: 1024px) {
+	h1 {
+        position: absolute;
+        margin-top: 10%;
+        margin-left: 15%;
+        font-size: 3em;
+    }
+    h3 {
+        position: absolute;
+        margin-top: 25%;
+        margin-left: 25%;
+        font-size: 1.5em;
+    }
+    .main_button {
+        position: absolute;
+        margin-top: 50%;
+        margin-left: 37%;
+        width: 20%;
+        height: 5%;
+        font-size: 1.3em;
+    }
+    #leader {
+        position: absolute;
+        margin-top: 25%;
+        margin-left: 30%;
+        font-size: 2.5em;
+    }
+    p {
+        position: absolute;
+        margin-top: 33%;
+        margin-left: 43%;
+        font-size: 2.5em;
+    }
+    #category {
+        position: absolute;
+        margin-top: 38%;
+        margin-left: 55%;
+        font-size: 2.5em;
+    }
+    .credit {
+    	font-size: 1em;
+    	margin-top: 60%;
+    	margin-left: 2%;
+    }
+} 
+
+@media (min-width: 1025px) {
+    h1 {
+        position: absolute;
+        margin-top: 5%;
+        margin-left: 20%;
+        font-size: 3em;
+    }
+    h3 {
+        position: absolute;
+        margin-top: 15%;
+        margin-left: 30%;
+        font-size: 1.5em;
+    }
+    .main_button {
+        position: absolute;
+        margin-top: 40%;
+        margin-left: 35%;
+        width: 20%;
+        height: 10%;
+        font-size: 1.3em;
+    }
+    #leader {
+        position: absolute;
+        margin-top: 15%;
+        margin-left: 25%;
+        font-size: 2.5em;
+    }
+    p {
+        position: absolute;
+        margin-top: 20%;
+        margin-left: 42%;
+        font-size: 2.5em;
+    }
+    #category {
+        position: absolute;
+        margin-top: 25%;
+        margin-left: 55%;
+        font-size: 2.5em;
+    }
+    .credit {
+    	font-size: 1em;
+    	margin-top: 50%;
+    	margin-left: 2%;
+    }
+}

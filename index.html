@@ -1,11 +1,33 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Give Me A Startup</title>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-	
-</head>
-<body>
 
+<head>
+    <title>Give Me A Startup</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.020/css/hack-extended.min.css">
+    <meta name='viewport' content='width=device-width, minimum-scale=1.0, maximum-scale=1.0'>
+
+</head>
+
+<body>
+	<h1 id="h1" style="display:block;"> Give me a god-damn idea</h1>
+	<h3 id="h3" style="display:block;"> A foul-mouthed idea-generator </h3>
+    <div class="main">
+        <div>
+            <button class="main_button" id="button_1" onclick="showDiv()"> Give Me An Idea </button>
+        </div>
+        <div id="leader" class="leader" style="display:none;">
+        </div>
+        <p id="p" style="display:none;"> for </p>
+        <div id="category" class="category" style="display:none;">
+        </div>
+        <button class="main_button_2" id="button_2" onclick="showDiv()" style="display:none;"> Another One </button>
+
+        <p class="credit">Made by <a href="https://www.harshalgupta.me" target="blank">Harshal Gupta </a></p>
+    </div>
 </body>
+<script src="js/main.js"></script>
+
 </html>
