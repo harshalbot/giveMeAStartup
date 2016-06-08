@@ -1,24 +1,25 @@
 body {
-    background-color: #121435;
-    font-family: Hack, monospace;
+    background-color: #EFECEA;
+    font-family: 'Raleway', sans-serif;
 }
 div {
     overflow-y: hidden;
 }
 h1,
 h3 {
-    color: #ffffff;
+    color: #334854;
 }
 
 .main_button {
-    background-color: #FF5722;
+    background-color: #e04462;
     border-radius: 15px;
     font-size: 1.3em;
-    color: #F5F5F5;
+    color: #334854;
 }
 
 #leader {
-    color: #FAF9F0;
+    color: #334854;
+
 }
 
 p {
@@ -26,7 +27,7 @@ p {
 }
 
 #category {
-    color: #FAF9F0;
+    color: #334854;
 }
 
 /*@media (min-width: 0px) and (max-width: 320px) {
@@ -223,19 +224,19 @@ p {
     h1 {
         position: absolute;
         margin-top: 5%;
-        margin-left: 20%;
+        margin-left: 30%;
         font-size: 3em;
     }
     h3 {
         position: absolute;
         margin-top: 15%;
-        margin-left: 30%;
+        margin-left: 35%;
         font-size: 1.5em;
     }
     .main_button {
         position: absolute;
         margin-top: 40%;
-        margin-left: 35%;
+        margin-left: 40%;
         width: 20%;
         height: 10%;
         font-size: 1.3em;
